@@ -4,6 +4,7 @@ export const siteConfig = {
   phoneDisplay: "+998 77 870 90 80",
   phoneHref: "+998778709080",
   location: "Yozyovon, O‘zbekiston",
+  mapUrl: "https://maps.app.goo.gl/3Brq1WsLBZhDdedy7",
   admissionsOpen: true,
   limitedSeatsText: "Joylar soni cheklangan",
   event: {

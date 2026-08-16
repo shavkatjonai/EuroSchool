@@ -215,6 +215,14 @@ img { display: block; max-width: 100%; }
 .faq-item.is-open .faq-answer p { padding-bottom: 28px; }
 .faq-item.is-open button b { transform: rotate(45deg); background: var(--purple); color: white; }
 
+.location-section { padding: 0 0 95px; background: white; }
+.location-card { min-height: 190px; padding: 38px 46px; display: grid; grid-template-columns: 74px 1fr auto; align-items: center; gap: 30px; background: var(--soft); border: 1px solid #e7dfea; }
+.location-pin { width: 66px; height: 66px; position: relative; display: grid; place-items: center; border-radius: 50% 50% 50% 8px; transform: rotate(-45deg); background: var(--purple); color: var(--gold); }
+.location-pin span { transform: rotate(45deg); font-size: 20px; }
+.location-card .section-label { margin: 0 0 8px; }
+.location-card h2 { margin: 0; font: 600 32px/1.2 var(--font-display); letter-spacing: -.04em; }
+.location-card p:last-child { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
+
 footer { padding: 72px 0 28px; background: #f4f0f5; }
 .footer-top { display: grid; grid-template-columns: 1.5fr repeat(3,1fr); gap: 70px; }
 .footer-top > div { display: flex; flex-direction: column; align-items: flex-start; gap: 11px; }
@@ -285,6 +293,11 @@ footer { padding: 72px 0 28px; background: #f4f0f5; }
   .admission-steps { padding-left:0; border-left:0; }
   .admission-actions { flex-direction:column; }
   .faq-grid { gap:20px; }
+  .location-section { padding-bottom:60px; }
+  .location-card { grid-template-columns:58px 1fr; padding:28px 22px; gap:20px; }
+  .location-pin { width:52px; height:52px; }
+  .location-card h2 { font-size:25px; }
+  .location-card .button { grid-column:1/-1; width:100%; }
   .footer-top { grid-template-columns:1fr 1fr; gap:40px 20px; }
   .footer-brand { grid-column:1/-1; }
   .footer-bottom { gap:20px; flex-direction:column; }
