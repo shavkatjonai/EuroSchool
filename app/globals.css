@@ -216,12 +216,18 @@ img { display: block; max-width: 100%; }
 .faq-item.is-open button b { transform: rotate(45deg); background: var(--purple); color: white; }
 
 .location-section { padding: 0 0 95px; background: white; }
-.location-card { min-height: 190px; padding: 38px 46px; display: grid; grid-template-columns: 74px 1fr auto; align-items: center; gap: 30px; background: var(--soft); border: 1px solid #e7dfea; }
-.location-pin { width: 66px; height: 66px; position: relative; display: grid; place-items: center; border-radius: 50% 50% 50% 8px; transform: rotate(-45deg); background: var(--purple); color: var(--gold); }
-.location-pin span { transform: rotate(45deg); font-size: 20px; }
-.location-card .section-label { margin: 0 0 8px; }
-.location-card h2 { margin: 0; font: 600 32px/1.2 var(--font-display); letter-spacing: -.04em; }
-.location-card p:last-child { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
+.location-heading { margin-bottom: 30px; }
+.location-heading .section-label { margin-bottom: 14px; }
+.location-heading h2 { margin: 0; font: 600 clamp(36px,4vw,54px)/1 var(--font-display); letter-spacing: -.055em; }
+.location-card { overflow: hidden; border: 1px solid var(--purple); border-bottom: 8px solid var(--gold); background: var(--purple-deep); box-shadow: 12px 12px 0 rgba(90,41,122,.13); }
+.location-map { height: 390px; background: #e8e5eb; }
+.location-map iframe { width: 100%; height: 100%; display: block; border: 0; filter: saturate(.8); }
+.location-bar { min-height: 106px; padding: 22px 30px; display: flex; align-items: center; justify-content: space-between; gap: 25px; color: white; }
+.location-bar__name { display: flex; align-items: center; gap: 15px; }
+.location-bar__name .location-pin { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 50%; background: var(--gold); color: var(--purple-deep); font-size: 15px; }
+.location-bar__name strong, .location-bar__name small { display: block; }
+.location-bar__name strong { font: 700 18px var(--font-display); letter-spacing: .04em; }
+.location-bar__name small { margin-top: 5px; color: rgba(255,255,255,.62); font-size: 12px; }
 
 footer { padding: 72px 0 28px; background: #f4f0f5; }
 .footer-top { display: grid; grid-template-columns: 1.5fr repeat(3,1fr); gap: 70px; }
@@ -294,10 +300,9 @@ footer { padding: 72px 0 28px; background: #f4f0f5; }
   .admission-actions { flex-direction:column; }
   .faq-grid { gap:20px; }
   .location-section { padding-bottom:60px; }
-  .location-card { grid-template-columns:58px 1fr; padding:28px 22px; gap:20px; }
-  .location-pin { width:52px; height:52px; }
-  .location-card h2 { font-size:25px; }
-  .location-card .button { grid-column:1/-1; width:100%; }
+  .location-map { height: 300px; }
+  .location-bar { align-items: stretch; flex-direction: column; padding: 22px; }
+  .location-bar .button { width: 100%; }
   .footer-top { grid-template-columns:1fr 1fr; gap:40px 20px; }
   .footer-brand { grid-column:1/-1; }
   .footer-bottom { gap:20px; flex-direction:column; }
