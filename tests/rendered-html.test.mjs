@@ -19,5 +19,5 @@ test("includes Netlify-ready social and school assets", async () => {
   const html = await readFile(htmlUrl, "utf8");
   assert.match(html, /\/og\.png/);
   assert.match(html, /\/assets\/euro-school-logo\.png/);
-  assert.match(html, /\/assets\/euro-school-building\.jpg/);
+  assert.match(html, /\/assets\/euro-school-building\.png/);
 });
