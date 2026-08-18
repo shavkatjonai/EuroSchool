@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-const links = [["Maktab", "#maktab"], ["Ta’lim", "#talim"], ["Imkoniyatlar", "#imkoniyatlar"], ["Qabul", "#qabul"], ["Savollar", "#savollar"]];
+const links = [["Maktab", "#maktab"], ["Ta’lim", "#talim"], ["Imkoniyatlar", "#imkoniyatlar"], ["Stipendiyalar", "#stipendiya"], ["Qabul", "#qabul"], ["Savollar", "#savollar"]];
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
