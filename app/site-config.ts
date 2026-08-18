@@ -6,6 +6,7 @@ export const siteConfig = {
   location: "Yozyovon, O‘zbekiston",
   mapUrl: "https://maps.app.goo.gl/3Brq1WsLBZhDdedy7",
   educationProjectPdf: "/documents/euro-school-talim-loyihasi.pdf",
+  brochurePdf: "/documents/euro-school-broshura.pdf",
   admissionsOpen: true,
   limitedSeatsText: "Joylar soni cheklangan",
   event: {

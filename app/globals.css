@@ -126,13 +126,17 @@ img { display: block; max-width: 100%; }
 .section-top { display: grid; grid-template-columns: 1fr 350px; align-items: end; gap: 80px; margin-bottom: 55px; }
 .section-top h2 { margin-bottom: 0; }
 .education-intro > p { margin: 0; color: var(--muted); line-height: 1.75; }
-.program-link { margin-top: 22px; padding: 13px 15px; display: grid; grid-template-columns: 39px 1fr auto; align-items: center; gap: 12px; background: white; border: 1px solid #ddd3e2; color: var(--ink); transition: border-color .2s, box-shadow .2s, transform .2s; }
+.resource-links { display: grid; gap: 10px; margin-top: 22px; }
+.program-link { padding: 13px 15px; display: grid; grid-template-columns: 39px 1fr auto; align-items: center; gap: 12px; background: white; border: 1px solid #ddd3e2; color: var(--ink); transition: border-color .2s, box-shadow .2s, transform .2s; }
 .program-link:hover { border-color: var(--purple); box-shadow: 6px 6px 0 rgba(90,41,122,.12); transform: translate(-2px,-2px); }
 .program-link__icon { width: 39px; height: 39px; display: grid; place-items: center; background: var(--purple); color: white; font: 800 10px var(--font-display); letter-spacing: .05em; }
 .program-link strong, .program-link small { display: block; }
 .program-link strong { font: 700 12px var(--font-display); }
 .program-link small { margin-top: 3px; color: var(--muted); font-size: 10px; }
 .program-link b { color: var(--purple); font-size: 17px; }
+.program-link--brochure { border-color: #e5cc83; background: #fffdf7; }
+.program-link--brochure .program-link__icon { background: var(--gold); color: var(--ink); }
+.program-link--brochure b { color: #8f6900; }
 .stage-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
 .stage-card { min-height: 410px; position: relative; padding: 36px; overflow: hidden; background: white; border: 1px solid #e9e2ed; transition: background .25s,color .25s,transform .25s; }
 .stage-card:hover { transform: translateY(-6px); background: var(--purple); color: white; }
