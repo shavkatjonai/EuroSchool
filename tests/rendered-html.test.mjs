@@ -9,7 +9,6 @@ test("exports the complete EURO SCHOOL landing page", async () => {
   assert.match(html, /<html lang="uz"/i);
   assert.match(html, /EURO SCHOOL — Kelajak liderlari maktabi/i);
   assert.match(html, /Farzandingizning/);
-  assert.match(html, /18-avgust/);
   assert.match(html, /Qabulga yozilish/);
   assert.match(html, /\+998 77 870 90 80/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|Your site is taking shape/i);

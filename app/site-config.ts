@@ -9,12 +9,6 @@ export const siteConfig = {
   brochurePdf: "/documents/euro-school-broshura.pdf",
   admissionsOpen: true,
   limitedSeatsText: "Joylar soni cheklangan",
-  event: {
-    title: "EURO SCHOOL musobaqasi",
-    dateLabel: "18-avgust, 2026",
-    timeLabel: "09:00",
-    dateTime: "2026-08-18T09:00:00+05:00",
-  },
   social: {
     telegram: "https://t.me/euroschool_uz",
     instagram: "https://www.instagram.com/euroschool.uz/",
